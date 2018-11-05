@@ -1,0 +1,88 @@
+$polar-white: #f8f8f8;
+$white: #ffffff;
+$grey: #eaeaea;
+$green: #0abb07;
+$dark-grey: #bdc1c5;
+$dark-navy: #393a3f;
+
+.header {
+    background: linear-gradient(0deg,rgba(16,16,16,0.3),rgba(16,16,16,0.3)),url("../../assets/donation-chain-760x400.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    min-height: 186px;
+    padding: 10px;
+
+    .progress {
+        margin-bottom: 54px;
+        .progress-bar {
+            background: $green;
+
+            .progress-label {
+                position: absolute;
+                top: 109px;
+                left: 128px;
+                background: $white;
+                color: $dark-navy;
+                padding: 5px;
+                font-weight: bold;
+            }
+        }
+    }
+    
+}
+.tabs {
+    display: block;
+    border-bottom: 1px solid $dark-grey;
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+            border-right: 1px solid $dark-grey;
+            padding: 15px;
+        }
+    }
+}
+.single-donation-info {
+    display: flex;
+    color: $white;
+    .single-blocks {
+        margin-right: 30px;
+
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+}
+.single-logo {
+    display: flex;
+    color: $white;
+    padding-bottom: 40px;
+
+    .charity-name {
+        padding: 0 21px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+.single-content {
+    padding: 15px;
+    ul { 
+        padding: 20px 0;
+        li {
+            list-style-type: disc;
+            list-style: inside;
+            padding: 12px 0;
+        }
+    }
+    .donate-butto {
+        background: $green;
+        border: none;
+        padding: 10px;
+        color: $white;
+        width: 100%;
+    }
+}
