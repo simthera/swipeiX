@@ -8,8 +8,9 @@
     </div>
   </div>
   <div class="progress" style="height: 10px;">
-      <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><span class="progress-label">35%</span></div>
+      <div class="progress-bar" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><span class="progress-label">{{ count }}</span></div>
     </div>
+ 
   <div class="single-donation-info">
       
     <div class="single-blocks goal">
@@ -42,5 +43,8 @@
   <li>Molestie ac feugiat sed lectus</li>
   <li>Mattis aliquam faucibus </li>
 </ul>
-<button class="donate-butto">Donate</button>
+<img src="../../assets/dairy-cows.jpg"/>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas integer eget aliquet nibh praesent.</p>
+<button (click)="increment()" class="donate-butto">Donate</button>
 </section>
